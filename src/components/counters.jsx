@@ -37,7 +37,7 @@ class Counters extends Component {
     return (
       <div>
         <button className="btn btn-primary m-2" onClick={this.handleReset}>
-          Reset
+          Reset all
         </button>
         {this.state.counters.map((counter) => (
           <Counter
